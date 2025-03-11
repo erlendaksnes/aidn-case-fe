@@ -1,0 +1,55 @@
+@import "../abstracts/variables";
+
+.form-container {
+  display: grid;
+  max-width: 404px;
+  width: 100%;
+
+  h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      display: grid;
+      margin-top: 40px;
+
+      label {
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      small {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+
+      input {
+        margin-top: 12px;
+        padding: 10px 12px 12px 24px;
+        border: 1px solid #7424da0d;
+        font-size: 16px;
+        background-color: #f3f1fa;
+        color: #24102b99;
+      }
+    }
+  }
+
+  .output,
+  .error-output {
+    margin-top: 40px;
+    font-size: 20px;
+    border: 1px solid #7424da66;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #f3f1fa;
+    color: #351b44;
+  }
+}
